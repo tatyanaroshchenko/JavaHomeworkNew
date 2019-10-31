@@ -46,11 +46,32 @@ public class Main {
         System.out.println();
     }
 
+    public static void DrawElochkaDraw(){
+        String t = "";
+        for (int i = 0; i < 12; i++){
+            t = t + " ";
+            System.out.print(t);
+            System.out.println("*");
+
+            }
+    }
+
+    public static void DrawEl(){
+        StringBuffer sb = new StringBuffer("**********");
+        for (int i=0; i<9; i++) {
+            sb.setLength(sb.length() - 1);
+            System.out.println(sb);
+        }
+
+    }
+
 
     public static void main(String[] args) {
-        DrawElochka();
-        CalculateFactorial();
-        CalculateFibonachchi();
+        DrawEl();
+        //DrawElochka();
+        //DrawElochkaDraw();
+        //CalculateFactorial();
+        //CalculateFibonachchi();
 
     }
 
