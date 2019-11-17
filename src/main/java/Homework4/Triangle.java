@@ -2,11 +2,11 @@ package Homework4;
 
 public class Triangle {
     Triangle (int countStars){
-        DrawTriangle(countStars);
+        drawTriangle(countStars);
     }
 
-    public void DrawTriangle(int countStars){
-        for (int i = 0; i <= countStars; i++){
+    public void drawTriangle(int countStars){
+        for (int i = 1; i <= countStars; i++){
             for (int j =0; j < i; j++){
                 System.out.print("*");
             }
